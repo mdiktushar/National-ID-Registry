@@ -69,7 +69,7 @@ PreparedStatement pst;
         Enter = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
         sex = new javax.swing.JTextField();
-        Enter1 = new javax.swing.JButton();
+        Clera = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
 
@@ -134,7 +134,7 @@ PreparedStatement pst;
 
         Search.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Search.setForeground(new java.awt.Color(102, 0, 102));
-        Search.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\Local Project\\National ID\\src\\National_ID\\Search.png")); // NOI18N
+        Search.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\My Projects\\National ID Registry 20-02-20\\National ID\\src\\National_ID\\Search.png")); // NOI18N
         Search.setText("Search");
         Search.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,7 +144,7 @@ PreparedStatement pst;
 
         Delete.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Delete.setForeground(new java.awt.Color(255, 0, 0));
-        Delete.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\Local Project\\National ID\\src\\National_ID\\delete.png")); // NOI18N
+        Delete.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\My Projects\\National ID Registry 20-02-20\\National ID\\src\\National_ID\\delete.png")); // NOI18N
         Delete.setText("Delete");
         Delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +154,7 @@ PreparedStatement pst;
 
         Update.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Update.setForeground(new java.awt.Color(0, 102, 102));
-        Update.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\Local Project\\National ID\\src\\National_ID\\update.png")); // NOI18N
+        Update.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\My Projects\\National ID Registry 20-02-20\\National ID\\src\\National_ID\\update.png")); // NOI18N
         Update.setText("Update");
         Update.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,7 +164,7 @@ PreparedStatement pst;
 
         Enter.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Enter.setForeground(new java.awt.Color(0, 87, 0));
-        Enter.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\Local Project\\National ID\\src\\National_ID\\enter.png")); // NOI18N
+        Enter.setIcon(new javax.swing.ImageIcon("D:\\Programming\\Java\\My Projects\\National ID Registry 20-02-20\\National ID\\src\\National_ID\\enter.png")); // NOI18N
         Enter.setText("Enter");
         Enter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,12 +178,12 @@ PreparedStatement pst;
 
         sex.setBackground(new java.awt.Color(204, 255, 204));
 
-        Enter1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Enter1.setForeground(new java.awt.Color(51, 0, 51));
-        Enter1.setText("Clear");
-        Enter1.addActionListener(new java.awt.event.ActionListener() {
+        Clera.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Clera.setForeground(new java.awt.Color(51, 0, 51));
+        Clera.setText("Clear");
+        Clera.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Enter1ActionPerformed(evt);
+                CleraActionPerformed(evt);
             }
         });
 
@@ -222,7 +222,7 @@ PreparedStatement pst;
                     .addComponent(sex))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 156, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Enter1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Clera, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Search, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Delete, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Update, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -287,7 +287,7 @@ PreparedStatement pst;
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel10)
                         .addComponent(sex, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(Enter1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Clera, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(174, Short.MAX_VALUE))
         );
 
@@ -421,12 +421,12 @@ PreparedStatement pst;
         }
     }//GEN-LAST:event_DeleteActionPerformed
 
-    private void Enter1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Enter1ActionPerformed
+    private void CleraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CleraActionPerformed
         // TODO add your handling code here:
         setVisible(false);
         Start_Page ob = new Start_Page();
         ob.setVisible(true);
-    }//GEN-LAST:event_Enter1ActionPerformed
+    }//GEN-LAST:event_CleraActionPerformed
 
     private void UpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpdateActionPerformed
         // TODO add your handling code here:
@@ -496,10 +496,10 @@ PreparedStatement pst;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Blood_Group;
+    private javax.swing.JButton Clera;
     private javax.swing.JTextField Date_of_Birth;
     private javax.swing.JButton Delete;
     private javax.swing.JButton Enter;
-    private javax.swing.JButton Enter1;
     private javax.swing.JTextField Father_Name;
     private javax.swing.JTextField Mobile_Number;
     private javax.swing.JTextField Mother_Name;
