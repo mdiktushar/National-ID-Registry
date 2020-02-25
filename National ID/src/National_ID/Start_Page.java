@@ -417,7 +417,7 @@ PreparedStatement pst;
                 ob.setVisible(true);
             }            
         }catch(Exception e){
-            JOptionPane.showMessageDialog(null, "Canot Find This Person");
+            JOptionPane.showMessageDialog(null, "Can't Find This Person");
         }
     }//GEN-LAST:event_DeleteActionPerformed
 
